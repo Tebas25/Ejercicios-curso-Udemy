@@ -6,7 +6,7 @@ int main (int argc, char *argv[]) {
     scanf("%f",&base);
     printf("Introduzca la altura del rectangulo: ");
     scanf("%f",&altura);
-    float perimetro=base*altura;
-    printf("El perimetro del rectangulo es: %.2f",perimetro);
+    float area=base*altura;
+    printf("El area del rectangulo es: %.2f",area);
     return 0;
 }
